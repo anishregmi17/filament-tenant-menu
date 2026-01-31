@@ -1,0 +1,28 @@
+{
+  "name": "anish/tenant-menu",
+  "description": "Filament plugin for role-based or context-based sidebar navigation using Laravel Auth",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "filament/filament": "^4.0|^5.0",
+    "illuminate/support": "^11.0|^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Anish\\TenantMenu\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Anish\\TenantMenu\\TenantMenuServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
